@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Birthday 😊</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <h1 style="margin: 1rem; text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;">😊Tell Your Birthday😊</h1>
+    <div class="privacy">
+        <h2
+            style=" margin-top: 1rem; ;text-shadow: 1px 1px 2px black, 0 0 25px rgb(253, 253, 253), 0 0 5px rgb(255, 255, 255);">
+            !!Privacy Alert!!</h2>
+        <p style="font-weight: bolder; margin-top: 1rem; color: black;">We are not storing your data!!</p>
+
+    </div>
+
+
+
+    <form>
+        <div class="input_div">
+            <div class="input_label"> <label for="birthday">Enter Your Birthday</label></div>
+            <input type="date" class="birthday" name="birthday">
+        </div>
+        <div>
+            <div class="input_label"><label for="lucky-no">Your Lucky-number:</label></div>
+            <input placeholder="Enter no" type="number" class="lucky-no birthday" name="luckeynumber">
+        </div>
+
+        <button type="submit" class="submit-type">Check</button>
+
+    </form>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p class="para"></p>
+            <img class="image" src="/images/undraw_celebration_0jvk.svg" height="30%" width="50%;">
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
