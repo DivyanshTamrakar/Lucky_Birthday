@@ -14,9 +14,10 @@ submit.addEventListener("click", getResult);
 
 //Functions
 function getResult(e) {
+
     e.preventDefault();
-
-
+    var scrollingElement = (document.scrollingElement || document.body);
+    scrollingElement.scrollTop = scrollingElement.scrollHeight;
     if (birthinput.value === "") {
         alert("Please Enter Birthday");
     } else {
@@ -24,7 +25,10 @@ function getResult(e) {
         if (num.value === "") {
             alert("Please Enter Your Lucky Number ");
 
+
         } else {
+
+
             var str = birthinput.value;
 
             var split = str.split("-").join("");
