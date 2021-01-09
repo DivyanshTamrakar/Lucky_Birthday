@@ -10,6 +10,9 @@ var img = document.querySelector(".image");
 var content = document.querySelector(".modal-content");
 content.style.display = "none";
 out.style.display = "none";
+
+
+// Event Handler 
 submit.addEventListener("click", getResult);
 
 //Functions
